@@ -1,0 +1,30 @@
+package tejassir;
+
+public class Father {
+	
+	private void atmcard() {
+		System.out.println("dads atm carduuu");
+	}
+	
+	 void car() {
+		System.out.println("dads atm carduuu");
+	}
+	
+	protected void bike() {
+		System.out.println("dads atm carduuu");
+	}
+	
+	public void cycle() {
+		System.out.println("dads atm carduuu");
+	}
+	
+	public static void main(String[] args) {
+		Father f1 = new Father();
+		f1.atmcard();
+		f1.car();
+		f1.bike();
+		f1.cycle();
+		
+	}
+
+}

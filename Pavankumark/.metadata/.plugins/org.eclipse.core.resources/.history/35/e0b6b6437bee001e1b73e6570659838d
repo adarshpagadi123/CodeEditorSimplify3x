@@ -1,0 +1,17 @@
+package tejassir;
+
+public class Solution {
+	public static void main(String[] args){
+		Father f1 = new Father();
+		
+		f1.car();
+		f1.bike();
+		f1.cycle();
+		try {
+			System.out.println("hello");
+		}catch(Exception e) {
+			System.out.println("cte");
+		}
+		
+	}
+}

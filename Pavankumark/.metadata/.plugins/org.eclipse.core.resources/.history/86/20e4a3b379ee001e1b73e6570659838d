@@ -1,0 +1,14 @@
+package teju;
+
+import tejassir.Father;
+
+public class solve extends Father {
+	public static void main(String[] args) {
+		solve s1 = new Solve();
+		s1.atmcard();
+		s1.car();
+		s1.bike();
+		s1.cycle();
+	}
+
+}
